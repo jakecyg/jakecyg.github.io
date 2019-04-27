@@ -1,0 +1,485 @@
+html, body, h1, form, fieldset, legend, ol, li {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body{
+	background-image: url(images/cadetblue.png), url(images/lightcoral.png);
+	background-size: 600px 2000px, 600px 2000px;
+	background-position: right, left;
+	background-repeat: no-repeat, no-repeat;
+	font-family: 'Muli', sans-serif;, sans-serif;
+
+}
+
+h1{
+	text-align: center;
+	font-size: 36px;
+	text-decoration: underline;
+}
+
+form{
+	width: 400px;
+	margin: 0px auto;
+}
+
+	form#payment fieldset{
+		border: 2px solid #000;
+		margin-bottom: 20px;
+	}
+
+		form#payment legend{
+			color:#000;
+			font-size:17px;
+			font-weight:bold;
+			padding-bottom:0px;
+			text-shadow:0px 1px 1px #000;
+			padding-left: 0px;
+		}
+
+			form#payment ol li{
+				list-style: none;
+			}
+
+				form#payment label{
+					float: left;
+					font-size:13px;
+					width:110px;
+					padding-left: 70px;
+					line-height: 20px;
+					font-style: italic;
+				}
+					form#payment input{
+						margin-bottom: 20px;
+					}
+	select{
+		cursor: pointer;
+	}
+
+	input:focus{
+		background: yellow;
+		color: blue;
+	}
+
+	input, textarea{
+		font-style: italic;
+	}
+
+
+form#payment #disclaimer{
+	height: 100px;
+	width: 400px;
+}
+
+form#payment fieldset #agree{
+	width: 300px;
+}
+
+#submit{
+	position: relative;
+	top: 10px;
+	left: 70px;
+	font-size: 20px;
+
+}
+
+#reset{
+	position: absolute;
+	left: 790px;
+	top: 1220px;
+	font-size: 20px;
+}
+#fry{
+	position: absolute;
+	top: 45px;
+	left: 35px;
+	width: 200px;
+	height: 200px;
+	border-radius: 60px;
+	
+}
+
+form#payment #trytry{
+	padding-left: 70px;
+}
+
+
+.select-flex{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+
+/*make top menu slide little bit when hover over hamburger icon*/
+
+
+ html {
+  scroll-behavior: smooth;
+}
+
+header{
+	color:white;
+}
+
+h1{
+	display: flex;
+	font-size: 100px;
+	margin-top: 0px;
+}
+
+h3{
+	color: white;
+	font-size: 8.0em;
+	margin-top: 200px;
+	text-align: center;
+	/*padding-left: 200px;*/
+	/*margin-bottom: 650px;*/
+	/*padding-left: auto;
+	padding-right: auto;*/
+}
+
+#aboutDiv ul li{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	list-style: none;
+}
+
+h4{
+	color: #FFF;
+}
+
+body{
+	background-image: url("images/bg.png");
+	font-family: 'Montserrat', sans-serif;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+p{
+	color: white;
+}
+
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 200px;
+}
+
+.slides {
+  display: none;
+}
+
+/* Next & previous buttons */
+#prevButton, #nextButton {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  transition: 0.6s ease;
+  border-radius: 3px 3px 3px 3px;
+  user-select: none;
+}
+
+#nextButton {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+#prevButton:hover, #nextButton:hover {
+  background-color: rgb(195,187,187);
+}
+
+#dot1, #dot2, #dot3 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, #dot1:hover, #dot2:hover, #dot3:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 6s;
+  animation-name: fade;
+  animation-duration: 6s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#firstDiv{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	color: white;
+
+}
+
+.blueNav{
+	margin-top: 50px;
+	display: flex;
+	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+	background-repeat: no-repeat;
+
+}
+	.blueNav ul{
+		list-style: none;
+		display: flex;
+		font-size: 0.8em;
+		justify-content: flex-start;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		height: 25px;
+		padding-bottom: 50px;
+		padding-left: 0px;
+
+	}
+
+		.blueNav ul li{
+			line-height: 25px;
+			padding-left: 10px;
+			padding-right: 10px;
+			
+			padding-bottom: 10px;
+			padding-top: 5px;
+
+		}
+
+		.blueNav ul li:after{
+			content:"";
+		
+		}
+
+		.blueNav ul li a{
+				text-decoration: none;
+				text-align: center;
+				padding-bottom: 5px;
+				margin-bottom: 5px;
+				padding-left: 10px;
+				-webkit-transition: all 0.5s ease;
+			}
+
+				.blueNav ul li a:link{
+					color: white;
+					text-decoration: none;
+				}
+
+				.blueNav ul li a:visited{
+					color: white;
+				}
+
+				.blueNav ul li a:hover{
+					/*color: blue;*/
+					transform: scale(1.5);
+				}
+
+				.blueNav ul li a:active{
+					color: red;
+				}
+
+#toggleButton a:hover{
+	cursor: crosshair;
+
+}
+
+.menuBar{
+	position:fixed;
+	width:100%;
+	height:200px;
+	top:-200px;
+	transition:all 500ms linear;
+}
+
+.menuBarOn{
+	/*background-image: url("images/bg.png");*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	position:fixed;
+	width:100%;
+	height:200px;
+	background-color:#1a1a1a;
+	transition:all 500ms linear;
+	top: 0px;
+}
+
+	.menuBarOn ul{
+		list-style: none;
+		display: flex;
+		font-size: 3em;
+		justify-content: space-between;
+		margin-top: 80px;
+		margin-bottom: 0px;
+		height: 25px;
+		padding-bottom: 50px;
+		padding-left: 0px;
+	}
+
+		.menuBarOn ul li{
+			line-height: 25px;
+			padding-left: 10px;
+			padding-right: 10px;
+
+			padding-bottom: 10px;
+			padding-top: 5px;
+		}
+
+			.menuBarOn ul li a{
+				text-decoration: none;
+				text-align: center;
+				padding-bottom: 5px;
+				margin-bottom: 5px;
+				padding-left: 10px;
+			}
+
+				.menuBarOn ul li a:link{
+					color: white;
+					text-decoration: none;
+				}
+
+				.menuBarOn ul li a:visited{
+					color: white;
+				}
+
+				.menuBarOn ul li a:hover{
+					color: blue;
+				}
+
+				.menuBarOn ul li a:active{
+					color: red;
+				}
+
+#topButton {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: grey; /* Set a background color */
+  color: #FFF; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#topButton:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+form{
+	color: white;
+}
+
+form {
+	display: flex;
+	position: relative;
+}
+
+form fieldset{
+	margin: auto;
+	text-align: center;
+}
+form#ContactForm ul li
+{
+	list-style: none;
+}
+
+form#ContactForm label{
+	float:left;
+	font-size:13px;
+	width:110px;
+
+}
+
+form#ContactForm input{
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*https://pxhere.com/en/photo/1447759*/
