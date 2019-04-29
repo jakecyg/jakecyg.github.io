@@ -19,6 +19,7 @@ h1{
 	margin-top: 0px;
 }
 
+
 h3{
 	color: white;
 	font-size: 8.0em;
@@ -29,6 +30,35 @@ h3{
 	/*padding-left: auto;
 	padding-right: auto;*/
 }
+
+#PJList{
+	color: white;
+	list-style: none;
+	line-height: 30px;
+	padding-left: 0px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+#PJ1DSCRP{
+	font-size: 30px;
+	text-align: center;
+}
+
+.salesQuoteProjectImage{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.salesQuoteProjectHeading{
+	text-decoration: underline;
+}
+
+.salesQuoteProjectDescription{
+	font-size: 20px;
+	margin-bottom: 100px;
+}
+
 
 h4{
 	color: #FFF;
@@ -538,3 +568,4 @@ footer{
 
 	
 }
+
